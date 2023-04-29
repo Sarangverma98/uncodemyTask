@@ -4,8 +4,6 @@ import Advertise from "./component/advertise/Advertise";
 import Placement from "./component/placement/Placement";
 import Bootcamp from "./component/bootcamp/Bootcamp";
 import Certificate from "./component/placement/certificate/Certificate";
-// import Curriculam from "./component/curriculam/Curriculam";
-// import Projects from "./component/projects/Projects";
 import Tools from "./component/tools/Tools";
 import Advantage from "./component/advantage/Advantage";
 import Admission from "./component/admission/Admission";
@@ -24,8 +22,6 @@ function App() {
       <Placement />
       <Bootcamp />
       <Certificate />
-      {/* <Curriculam /> */}
-      {/* <Projects /> */}
       <Tools />
       <Advantage />
       <Admission />
