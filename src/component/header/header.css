@@ -1,0 +1,68 @@
+
+.header {
+    height: 70px;
+    background: #ffffff;
+    transition: all 0.5s;
+  }
+  .header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .header .navbar img{
+    height: 50px;
+    width: 135px;
+    padding-right: 35%;
+  }
+  
+  .header .whatsapp-btn .icon-whatsapp {
+    height: 21px;
+    width: 21px;
+    margin-right: 6px;
+    background-position: -923px -237px;
+  }
+
+  .contact-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .mail-btn{
+    width: 130px;
+    height: 40px;
+    color: #e95454;
+    border: 1px solid #e95454;
+    font-weight: 900;
+    background-color: transparent;
+  }
+
+  .call-btn{
+    width: 110px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    background-color: #e95454;
+  }
+
+  .chat-btn{
+    width: 160px;
+    height: 40px;
+    color: #3fc350;
+    border: 1px solid #3fc350;
+    font-weight: 900;
+    background-color: transparent;
+    line-height: 1;
+  }
+
+    .chat-btn img{
+        height: 35px !important;
+        width: 35px !important;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -50px;
+    }
+  

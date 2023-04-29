@@ -1,0 +1,136 @@
+.section-heading {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 70px;
+  }
+  .section-heading b {
+    font-weight: 700;
+    position: relative;
+    line-height: 45px;
+    display: inline-block;
+  }
+.comparision {
+    background: #ffffff;
+    padding: 80px 0;
+    margin-left: 5%;
+    margin-right: 8%;
+  }
+  .comparision .table-responsive {
+    box-shadow: 0px 0px 18px rgba(24, 39, 75, 0.1);
+    margin-top: 46px;
+    border-radius: 8px;
+    padding: 5px;
+    background: #ffffff;
+  }
+  .comparision .section-heading {
+    margin-bottom: 33px;
+    max-width: 694px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .custom-table {
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: none;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .table-footer {
+    text-align: center;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+  }
+  .title {
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 0px;
+  }
+  .description {
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+  }
+  .custom-table thead th {
+    background-color: #f7fafe;
+    vertical-align: middle;
+    height: 72px;
+    border-bottom: none !important;
+    color: #111;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    border: 0 none;
+  }
+  .custom-table tbody tr td:last-child {
+    background-color: #fff8e7;
+  }
+  .custom-table tbody tr:first-child td {
+    border-top: 0;
+  }
+  .custom-table tbody .first-column {
+    width: 45%;
+  }
+  .custom-table tbody td {
+    padding: 0px 27px;
+    vertical-align: middle;
+    border-color: #eee;
+    height: 72px;
+    border: 0 none;
+  }
+  .table-striped tbody tr:nth-of-type(2n + 1) {
+    background-color: #ffffff;
+  }
+  .table-striped tbody tr:nth-of-type(2n) {
+    background-color: #f7f7f7;
+  }
+  .table-striped
+    tbody
+    tr:nth-of-type(2n + 1)
+    td:last-child {
+    background-color: #cffddb;
+  }
+  .table-striped
+    tbody
+    tr:nth-of-type(2n)
+    td:last-child {
+    background-color: #e2ffec;
+  }
+  .icon-wrong {
+    background-position: -391px -785px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+  }
+  .icon-tick {
+    background-position: -472px -784px;
+    width: 19px;
+    height: 14px;
+    display: inline-block;
+  }
+  .comparision ul {
+    padding-left: 20px;
+    list-style: disc;
+    margin-top: 20px;
+  }
+  .comparision ul li {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }

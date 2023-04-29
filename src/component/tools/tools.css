@@ -1,0 +1,176 @@
+.section-heading {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .section-heading b {
+    font-weight: 700;
+    position: relative;
+    line-height: 45px;
+    display: inline-block;
+  }
+  
+  
+
+.tools {
+    padding-bottom: 80px;
+    background: #ffffff;
+    padding-top: 80px;
+  }
+  .tools ul {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tools ul li {
+    display: inline-flex;
+    height: 54px;
+    align-items: center;
+    background: #f7f7f7;
+    border: 0.9px solid #d9d9d9;
+    border-radius: 46px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #111111;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 63px;
+  }
+  .tools ul li i {
+    height: 54px;
+    width: 54px;
+    margin-right: 10px;
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+  }
+  .tools-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .icon-linux {
+    background-position: 0 -350px;
+  }
+  .icon-github {
+    background-position: -158px -350px;
+  }
+  .icon-html {
+    background-position: -317px -350px;
+  }
+  .icon-css {
+    background-position: -476px -350px;
+  }
+  .icon-js {
+    background-position: -635px -350px;
+  }
+  .icon-microsoft {
+    background-position: -794px -350px;
+  }
+  .icon-vscode {
+    background-position: -953px -350px;
+  }
+  .icon-prettier {
+    background-position: 0 -446px;
+  }
+  .icon-babel {
+    background-position: -158px -446px;
+  }
+  .icon-webpack {
+    background-position: -317px -446px;
+  }
+  .icon-parcel {
+    background-position: -476px -446px;
+  }
+  .icon-react {
+    background-position: -635px -446px;
+  }
+  .icon-react-router {
+    background-position: -794px -446px;
+  }
+  .icon-redux {
+    background-position: -953px -461px;
+  }
+  .icon-node {
+    background-position: -32px -3158px;
+  }
+  .icon-mongodb {
+    background-position: -158px -542px;
+  }
+  .icon-mongodb-atlas {
+    background-position: -317px -542px;
+  }
+  .icon-jest {
+    background-position: -476px -542px;
+  }
+  .icon-heroku {
+    background-position: -635px -542px;
+  }
+  .icon-mongoose {
+    background-position: -794px -542px;
+  }
+  .icon-cypress {
+    background-position: 0 -542px;
+  }
+  .icon-swagger {
+    background-position: -953px -542px;
+  }
+  .icon-aws {
+    background-position: 0 -639px;
+  }
+  .icon-netlify {
+    background-position: -158px -639px;
+  }
+  .icon-beanstalk {
+    background-position: -317px -639px;
+  }
+  .icon-elastic {
+    background-position: -476px -639px;
+  }
+  .btn-success {
+    background: #e95454 !important;
+    box-shadow: none;
+    border-radius: 4px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff !important;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    border: 0 none;
+    padding: 12px 18px;
+    line-height: 15px;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .btn-success:hover,
+  .btn-success:focus {
+    background: #e95454 !important;
+    border: 0 none;
+  }
+  .btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success.focus:active,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.open > .dropdown-toggle.btn-success.focus,
+.open > .dropdown-toggle.btn-success:focus,
+.open > .dropdown-toggle.btn-success:hover {
+  background: #e95454;
+  border: 0 none;
+  box-shadow: none !important;
+}

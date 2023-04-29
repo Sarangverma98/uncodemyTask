@@ -1,0 +1,26 @@
+
+.scholar-banner {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fceceb;
+    position: relative;
+}
+
+.scholar-banner p {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .close-icon{
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+  }
+
+  .close-icon span{
+    color: gray;
+  }
